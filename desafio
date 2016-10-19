@@ -93,8 +93,4 @@ for(i in 1:dim(sol)[1]){
   cat('\n',bb[i,1],bb[i,2],bb[i,3],'\n',
       bb[i,4],bb[i,5],bb[i,6],'\n',
       bb[i,7],bb[i,8],bb[i,9],'\n')}
-
-cat('\n',bb[i,1],bb[i,2],bb[i,3],'\n',bb[i,4],bb[i,5],bb[i,6],'\n',bb[i,7],bb[i,8],bb[i,9])
-
-
 }else{cat("Não foi possível encontrar nenhuma solução.\nPor favor tente novamente!")}
