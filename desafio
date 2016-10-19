@@ -37,7 +37,7 @@ length(d1);length(d2);length(d3)
 #-----------------------------------------------------#
 #Funcionando!
 
-total=2000
+total=5000
 res=as.data.frame(matrix(ncol=4,nrow=total))
 for(i in 1:total)
 {
@@ -46,7 +46,7 @@ for(i in 1:total)
                         max = total, width = 300);ini=strsplit(as.character(Sys.time())," ")[[1]][2]}
   
   a=c()
-  a[1]= sample(d1)
+  a[1]= sample(d1,1)
   
   dt21=d2[-c(grep(strsplit(as.character(a[1]),"")[[1]][1],d2))]
   dt22=dt21[-c(grep(strsplit(as.character(a[1]),"")[[1]][2],dt21))]
